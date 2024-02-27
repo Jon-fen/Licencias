@@ -92,7 +92,7 @@ for i in range(0, len(lista_links)):
         worksheet.write(to_cell(i+1, 3), estado_licencia)
         worksheet.write(to_cell(i+1, 4), pago_licencia)
 
-        # random.uniform genera numero aleatori ode segundos de espera entre 3 y 6segundos para dejar descansar el servidor remoto entre request y request
+        # random.uniform genera numero aleatorio de segundos de espera entre 3 y 6 segundos para dejar descansar el servidor remoto entre request y request
 
         wait_time = (random.uniform(2.8, 4))
         print(f'{wait_time:.4f}', 'Segundos de espera aleatorios entre requerimientos al servidor.')
