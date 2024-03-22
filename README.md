@@ -18,7 +18,11 @@ Se agrega hora de inicio y final con marca de tiempo y se hace diferencia de la 
 Se acorta a escribar en planilla de salida ahora se registrara sin el primer digito ni el guion para mejor compración, 
 el sitio web lo entrega con este digito.
 ----------------------------------------------------------
-Version 3.0 Se generan los links en python directo de lista de RUT y Folios.
+Version 3.0 
+
+Se generan los links en python directo de lista de RUT y Folios.
 Se genera validación de ruts mayores y menores a 10 millones.
-----------------------------------------------------------
+
 3.1 Se agregan índices o headers a la planilla de salida
+----------------------------------------------------------
+
